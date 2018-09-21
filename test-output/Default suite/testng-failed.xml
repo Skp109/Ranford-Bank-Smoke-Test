@@ -5,11 +5,10 @@
     <classes>
       <class name="com.PageLibrary.com.Ranford.TestExecution">
         <methods>
-          <include name="click_newRoles"/>
-          <include name="click_Roles"/>
-          <include name="newRoles_Operation"/>
-          <include name="launch_Browser"/>
-          <include name="verify_login"/>
+          <include name="validate_excel"/>
+          <include name="beforemethod"/>
+          <include name="extentset"/>
+          <include name="aftersuite"/>
         </methods>
       </class> <!-- com.PageLibrary.com.Ranford.TestExecution -->
     </classes>

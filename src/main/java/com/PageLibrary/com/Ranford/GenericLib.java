@@ -5,14 +5,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class GenericLib {
+import testBase.BaseClass;
 
-	public static Select dropdownhandle(WebDriver driver,By prop)
+public class GenericLib extends BaseClass {
+
+	public static Select dropdownhandle(By prop)
 	{
 		Select sel=new Select(driver.findElement(prop));
 		return sel;
 	}
-	public static Alert alertButton(WebDriver driver)
+	public static Alert alertButton()
 	{
 		Alert alt=driver.switchTo().alert();
 		return alt;
